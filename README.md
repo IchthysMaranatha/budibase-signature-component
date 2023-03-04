@@ -1,3 +1,5 @@
+This fork adds data validation so as to make it a required field. Couple of ways to do this: Insert field in form and save without any marking in the field. Note text entered into database and assign it to state variable attached on screen load. Then enter 'must not equal' against the state variable in data validation. Or directly enter the earlier noted value in data validation for the component without using a state variable.
+
 # Budibase-Signature-Plugin
 ![Example](./assets/signature.png)
 
