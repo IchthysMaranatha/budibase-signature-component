@@ -21,6 +21,7 @@
   export let modalBody
   export let saveBackgroundColour
   export let signatureData
+  export let validation
   //export let required
 
   let initalImage
@@ -50,7 +51,7 @@ $: formField = formApi?.registerField(
     "text",
     0,
     false,
-    null,
+    validation,
     formStep
   );
 
